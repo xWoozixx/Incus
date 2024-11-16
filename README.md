@@ -4,7 +4,7 @@
 - Connaissances de bases de Linux 
 
 Vérification de la version d'Incus:
-- Exécuter le script # *install_incus.sh* # afin de vérifier votre version d'Incus ou de l'installer
+- Exécuter le script **install_incus.sh** afin de vérifier votre version d'Incus ou de l'installer
 
 Ma config : 
 - Interface réseau en mode bridge
