@@ -1,4 +1,4 @@
-  #cloud-config
+  #config cloud-init pour nginx
   users:
     - name: user
       sudo: ALL=(ALL) NOPASSWD:ALL
@@ -8,6 +8,6 @@
   package_update: true
   package_upgrade: true
   packages:
-    - nginx
+    - nginx #Installe nginx
   runcmd:
-    - echo "Hello World" > /var/www/html/index.html
+    - echo "Hello World" > /var/www/html/index.html #Crée une page web qui affiche Hello World
