@@ -14,4 +14,4 @@ Vérification de la version d'Incus:
 
 Configurer le réseau Incus:
 Exécutez la commande :
-incus network set incusbr0 ipv4.address 10.10.10.1/24
+- incus network set incusbr0 ipv4.address 10.10.10.1/24
