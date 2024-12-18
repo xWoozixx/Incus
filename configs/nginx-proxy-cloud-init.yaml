@@ -1,6 +1,6 @@
   #config cloud-init pour nginx
   users:
-    - name: user
+    - name: admin
       sudo: ALL=(ALL) NOPASSWD:ALL
       shell: /bin/bash
       lock_passwd: false
