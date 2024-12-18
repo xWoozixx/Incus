@@ -1,0 +1,13 @@
+  #cloud-config
+  users:
+    - name: user
+      sudo: ALL=(ALL) NOPASSWD:ALL
+      shell: /bin/bash
+      lock_passwd: false
+      passwd: $y$j9T$nQ1U8Or2C1.OgEAz2jkWS.$eXtTz5nKT.d/E5F1JjGqqbi2qmRZErKkgGiUvxjbdg.
+  package_update: true
+  package_upgrade: true
+  packages:
+    - nginx
+  runcmd:
+    - echo "Hello World" > /var/www/html/index.html
